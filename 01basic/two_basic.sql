@@ -1,0 +1,74 @@
+-- SHOW DATABASES;
+-- CREATE TABLE CUSTOMERS(
+
+--     ID INT NOT NULL AUTO_INCREMENT,
+--     NAME VARCHAR(30) NOT NULL,
+--     EMAIL VARCHAR(40) NOT NULL DEFAULT 'EMAIL NO PROVIDE',
+--     AMOUNT INT,
+--     PRIMARY KEY(ID)
+
+-- );
+
+-- SELECT * FROM CUSTOMERS;
+-- DESC CUSTOMERS;
+-- INSERT INTO CUSTOMERS( NAME, AMOUNT )VALUES(
+--     'HITESH',
+--     23
+-- );
+
+-- INSERT INTO CUSTOMERS( NAME ,EMAIL ,AMOUNT ) 
+-- VALUES('Hitesh','hitesh@lco.dev',35),
+-- ('Geroge','geroge@lco.dev',95),
+-- ('hitesh','hitesh@gmail.com',88),
+-- ('Lina','lina@gmail.com',78),
+-- ('Jimmy','jimmy@yahoo.com',54),
+-- ('Lina','lina@yahoo.com',35),
+-- ('hitesh','hitesh@yahoo.co.in',56);
+
+-- SELECT * FROM CUSTOMERS;
+
+
+-- TODO: answer the some questions ->
+-- Questions 1 Answer
+
+-- SELECT NAME FROM CUSTOMERS;
+
+-- - Questions 2 Answer
+
+-- SELECT EMAIL FROM CUSTOMERS;
+
+--  - Questions 3 Answer
+
+-- SELECT AMOUNT AS PURCHASE FROM CUSTOMERS;
+
+
+
+-- TODO : UPDATE TASK
+
+-- SELECT *FROM CUSTOMERS WHERE NAME = 'JIMMY';
+
+-- UPDATE CUSTOMERS SET EMAIL ='jimmy@yahoo.com' WHERE NAME = "JIMMY";
+
+-- SELECT *FROM CUSTOMERS;
+
+-- SELECT *FROM CUSTOMERS WHERE name = 'lina';
+-- UPDATE CUSTOMERS SET AMOUNT = 38 WHERE ID = 6;
+
+-- UPDATE CUSTOMERS SET EMAIL = 'lina@gmail.com' WHERE name ='lina';
+
+
+-- TODO Delete in customers table data
+
+-- SELECT *FROM CUSTOMERS;
+
+-- SELECT *FROM CUSTOMERS WHERE NAME = 'GEROGE';
+-- DELETE FROM CUSTOMERS WHERE ID = 2;
+
+-- SELECT * FROM CUSTOMERS WHERE NAME ='HITESH';
+-- DELETE FROM CUSTOMERS WHERE NAME = 'HITESH';
+-- SELECT *FROM CUSTOMERS;
+
+-- SELECT *FROM CUSTOMERS WHERE NAME = 'LINA';
+-- DELETE FROM CUSTOMERS WHERE NAME = 'LINA';
+
+-- SELECT *FROM CUSTOMERS;
